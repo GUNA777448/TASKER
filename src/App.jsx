@@ -6,13 +6,14 @@ import SpacePage from "./pages/SpacePage";
 import UserDashboard from "./pages/user/UserDashboard";
 import UserSpacePage from "./pages/user/UserSpacePage";
 import ProfilePage from "./pages/ProfilePage";
+import MainPage from "./pages/MainPage";
 import "./App.css";
 import ErrorPage from "./pages/ErrorPage";
 
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Navigate to="/login" replace />} />
+  <Route path="/" element={<MainPage />} />
       <Route path="/login" element={<LoginPage />} />
       <Route path="/signup" element={<SignupPage />} />
 
