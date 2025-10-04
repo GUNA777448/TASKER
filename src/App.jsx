@@ -13,7 +13,7 @@ import ErrorPage from "./pages/ErrorPage";
 function App() {
   return (
     <Routes>
-  <Route path="/" element={<MainPage />} />
+      <Route path="/" element={<MainPage />} />
       <Route path="/login" element={<LoginPage />} />
       <Route path="/signup" element={<SignupPage />} />
 
